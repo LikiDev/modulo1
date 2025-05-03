@@ -1,0 +1,11 @@
+name: DemoWF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar nombre
+        run: echo "Jordi Nadal"
